@@ -1,0 +1,82 @@
+2012-06-13 02:54:51 Error: [MissingControllerException] Controller class GroupController could not be found.
+#0 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 01:30:08 Error: [MissingTableException] Table companies for model Company was not found in datasource default.
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Model.php(3398): Model->setSource('companies')
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#3 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Applications/AMPPS/www/projectmgmt/Controller/UsersController.php(18): Controller->paginate()
+#6 [internal function]: UsersController->index()
+#7 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-14 01:36:12 Error: [MissingTableException] Table companies for model Company was not found in datasource default.
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Model.php(3398): Model->setSource('companies')
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#3 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Applications/AMPPS/www/projectmgmt/Controller/UsersController.php(18): Controller->paginate()
+#6 [internal function]: UsersController->index()
+#7 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-14 01:37:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.client_id' in 'on clause'
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#5 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Applications/AMPPS/www/projectmgmt/Controller/UsersController.php(18): Controller->paginate()
+#8 [internal function]: UsersController->index()
+#9 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-14 01:37:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.client_id' in 'on clause'
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/AMPPS/www/cakeframework/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#5 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Applications/AMPPS/www/projectmgmt/Controller/UsersController.php(18): Controller->paginate()
+#8 [internal function]: UsersController->index()
+#9 /Applications/AMPPS/www/cakeframework/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-14 03:25:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 03:28:53 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 03:54:35 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 04:02:37 Error: [MissingActionException] Action GroupsController::build_acl() could not be found.
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 04:16:12 Error: [MissingActionException] Action GroupsController::build_acl() could not be found.
+#0 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/cakeframework/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/projectmgmt/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
